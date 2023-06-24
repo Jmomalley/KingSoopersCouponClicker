@@ -28,39 +28,11 @@ for i in range(20):
     for j in range(rangeMax):
         pyautogui.click(clickButtonX, clickButtonY + rangeVal * j)
 
-        #time.sleep(0.25)
-    for i in range(6):
+    for i in range(6): #clicks the down arrow 6 times to get to the next coupon
         pyautogui.click(downArrowX, downArrowY)
-    if numClips == numClipsMax:
+    if numClips == numClipsMax: #helps to stop the precession of the coupons up the page
         pyautogui.click(downArrowX,downArrowY)
         pyautogui.click(downArrowX,downArrowY)
         numClips = 0
     else:
         numClips += 1
-
-# pyautogui.click(clickButtonX, clickButtonY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-
-# pyautogui.click(clickButtonX, clickButtonY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-
-# pyautogui.click(clickButtonX, clickButtonY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-# pyautogui.click(downArrowX, downArrowY)
-
-# time.sleep(0.5)
-# pyautogui.click(clickButtonX, clickButtonY)
